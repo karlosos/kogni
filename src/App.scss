@@ -1,0 +1,20 @@
+@import "../node_modules/bulma/css/bulma.css";
+
+.App {
+  text-align: center;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.experiment-step {
+  color: white;
+  padding-top: 32px;
+}
+
+.answer-section {
+  .button {
+    margin-right: 8px; 
+  }
+}

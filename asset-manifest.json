@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/kogni/static/css/main.d1b05096.chunk.css",
-    "main.js": "/kogni/static/js/main.2c2ed622.chunk.js",
-    "main.js.map": "/kogni/static/js/main.2c2ed622.chunk.js.map",
+    "main.css": "/kogni/static/css/main.93fa78dc.chunk.css",
+    "main.js": "/kogni/static/js/main.b30a77b6.chunk.js",
+    "main.js.map": "/kogni/static/js/main.b30a77b6.chunk.js.map",
     "runtime-main.js": "/kogni/static/js/runtime-main.d81a9d0b.js",
     "runtime-main.js.map": "/kogni/static/js/runtime-main.d81a9d0b.js.map",
+    "static/css/2.cd1899df.chunk.css": "/kogni/static/css/2.cd1899df.chunk.css",
     "static/js/2.ce02b5a6.chunk.js": "/kogni/static/js/2.ce02b5a6.chunk.js",
     "static/js/2.ce02b5a6.chunk.js.map": "/kogni/static/js/2.ce02b5a6.chunk.js.map",
     "index.html": "/kogni/index.html",
-    "precache-manifest.33e4b84799f232caa91062d21efe48db.js": "/kogni/precache-manifest.33e4b84799f232caa91062d21efe48db.js",
+    "precache-manifest.ccade70b6795a846c085311a480a299d.js": "/kogni/precache-manifest.ccade70b6795a846c085311a480a299d.js",
     "service-worker.js": "/kogni/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/kogni/static/css/main.d1b05096.chunk.css.map",
+    "static/css/2.cd1899df.chunk.css.map": "/kogni/static/css/2.cd1899df.chunk.css.map",
+    "static/css/main.93fa78dc.chunk.css.map": "/kogni/static/css/main.93fa78dc.chunk.css.map",
     "static/js/2.ce02b5a6.chunk.js.LICENSE.txt": "/kogni/static/js/2.ce02b5a6.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/kogni/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d81a9d0b.js",
+    "static/css/2.cd1899df.chunk.css",
     "static/js/2.ce02b5a6.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2c2ed622.chunk.js"
+    "static/css/main.93fa78dc.chunk.css",
+    "static/js/main.b30a77b6.chunk.js"
   ]
 }

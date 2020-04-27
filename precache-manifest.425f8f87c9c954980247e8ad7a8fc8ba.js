@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b78cfea9cadeb5d42884b58230c38dbe",
+    "revision": "c1a1e85336164ef3518b751c388f7141",
     "url": "/kogni/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kogni/static/css/2.27db1d56.chunk.css"
   },
   {
-    "revision": "f438c902730efae1d71a",
+    "revision": "cd497ceb2d1b3115cdfd",
     "url": "/kogni/static/css/main.301dcf1a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kogni/static/js/2.aff31c71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f438c902730efae1d71a",
-    "url": "/kogni/static/js/main.ec7ee63b.chunk.js"
+    "revision": "cd497ceb2d1b3115cdfd",
+    "url": "/kogni/static/js/main.4db54836.chunk.js"
   },
   {
     "revision": "1b0f065f7efe13961a25",

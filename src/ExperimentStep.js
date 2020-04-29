@@ -33,8 +33,7 @@ const ExperimentStep = ({ imageSource, currentImageIndex, imagesCount, saveData 
 
   return (
     <section class='hero is-fullheight is-default is-bold experiment-step'>
-            <div class="hero-body">
-      <div class='container has-text-centered'>
+      <div class='container has-text-centered m-t-200'>
         <div class='columns is-centered'>
           <div class='column is-half'>
             {currentImageIndex}/{imagesCount}
@@ -58,7 +57,6 @@ const ExperimentStep = ({ imageSource, currentImageIndex, imagesCount, saveData 
             <button class='button' onClick={() => submitData('przyjazny')}>Przyjazny</button>
             <button class='button' onClick={() => submitData('bardzo przyjazny')}>Bardzo przyjazny</button>
           </div>}
-      </div>
       </div>
     </section>
   )

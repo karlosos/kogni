@@ -13,7 +13,7 @@ const ExperimentFinished = ({ experimentData }) => {
             <CSVLink
               filename='technika_pojedynczego_bodzca.csv'
               className='button'
-              data={experimentData.slice(4, experimentData.length)}
+              data={[...experimentData.slice(0, 1), ...experimentData.slice(4, experimentData.length)]}
               // enclosingCharacter=''
             >
                Pobierz CSV

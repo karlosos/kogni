@@ -33,6 +33,7 @@ const ExperimentStep = ({ imageSource, currentImageIndex, imagesCount, saveData 
 
   return (
     <section class='hero is-fullheight is-default is-bold experiment-step'>
+            <div class="hero-body">
       <div class='container has-text-centered'>
         <div class='columns is-centered'>
           <div class='column is-half'>
@@ -50,13 +51,14 @@ const ExperimentStep = ({ imageSource, currentImageIndex, imagesCount, saveData 
           </div>}
 
         {!isShowingImage &&
-          <div class='columns is-vcentered answer-section'>
+          <div class='columns is-vcentered answer-section is-centered'>
             <button class='button' onClick={() => submitData('bardzo drazniacy')}>Bardzo drażniący</button>
             <button class='button' onClick={() => submitData('drazniacy')}>Drażniący</button>
             <button class='button' onClick={() => submitData('taki sobie')}>Taki sobie</button>
             <button class='button' onClick={() => submitData('przyjazny')}>Przyjazny</button>
             <button class='button' onClick={() => submitData('bardzo przyjazny')}>Bardzo przyjazny</button>
           </div>}
+      </div>
       </div>
     </section>
   )

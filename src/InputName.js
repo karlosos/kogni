@@ -15,9 +15,11 @@ const InputName = ({setIsName}) => {
 
   return (
     <section class='hero is-fullheight is-default is-bold experiment-step'>
+      <div class="hero-body">
+
       <div class='container has-text-centered'>
         <div class='columns is-centered'>
-          <div class="column">
+          <div class="column is-5">
             <div class="field">
               <div class="control">
                 <input onChange={event => saveName(event.target.value)} class="input" type="text" placeholder="Podaj imie"/>
@@ -27,6 +29,7 @@ const InputName = ({setIsName}) => {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   )

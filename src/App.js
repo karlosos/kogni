@@ -4,6 +4,7 @@ import ExperimentStep from './ExperimentStep'
 import ImagesFileNames from './ImagesFileNames'
 import shuffle from 'shuffle-x'
 import ExperimentFinished from './ExperimentFinished'
+import InputName from './InputName'
 
 function App () {
   const fileNames = shuffle(ImagesFileNames)
@@ -12,6 +13,7 @@ function App () {
     imagesCount: fileNames.length,
     imageSource: fileNames[0]
   })
+  const [isName, setIsName] = useState('')
 
   const [isExperimentFinished, setExperimentFinished] = useState(false)
 
@@ -43,9 +45,9 @@ function App () {
   )
 
   const experimentFinished = <ExperimentFinished />
-
   return (
     <>
+      {isName === '' ? <InputName setIsName={setIsName}/> : ''}
       {isExperimentFinished ? experimentFinished : experimentStep}
     </>
   )

@@ -6,7 +6,20 @@ const ExperimentStep = ({ imageSource, currentImageIndex, imagesCount, saveData 
   const [timeStart, setTimeStart] = useState(new Date().getTime())
 
   useEffect(() => {
-    setTimeStart(new Date().getTime())
+    const options = {
+      year: 'numeric',
+      month: 'numeric',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+      hour12: false,
+      timeZone: 'America/Los_Angeles'
+    }
+    const date = new Date()
+    const dateFmt = new Intl.DateTimeFormat('pl-PL', options).format(date)
+    setTimeStart(dateFmt)
+
     const interval = setInterval(() => {
       setIsShowingImage(false)
     }, 3000)

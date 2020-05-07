@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kogni/precache-manifest.27b8e688bf68bf2be33957cd89961048.js"
+  "/kogni/precache-manifest.9c666d48a51382a589b759b6f7f91bd2.js"
 );
 
 self.addEventListener('message', (event) => {
